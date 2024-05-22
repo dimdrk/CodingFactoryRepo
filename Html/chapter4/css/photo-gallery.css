@@ -1,0 +1,15 @@
+.main {
+    overflow: hidden;
+    min-height: 150px;
+    border: 5px solid black;
+    background-color: rgb(143, 143, 199);
+}
+
+.main > img {
+    float: left;    
+    width: 200px;
+    height: auto;
+    background-color: rgb(232, 232, 142);
+    border: 1px solid black;
+    margin: 10px 1.5%;
+}

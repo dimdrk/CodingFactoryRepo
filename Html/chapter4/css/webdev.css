@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #363636;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo > img {
+    height: 120px;
+    width: auto;
+    vertical-align: middle;
+
+}
+
+.nav {
+    float: left;
+    width: 700px;
+}
+
+.nav > ul {
+    height: 120px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+.nav a:hover {
+    background-color: rgb(22, 152, 109);
+}
+
+.nav a:active {
+    background-color: rgb(172, 172, 231);
+}
+
+.home-img {
+    overflow: hidden;
+    background-image: url('../img/tep-aueb-d.jpg');
+    height: calc(95vh - 120px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-title {
+    width: 50%;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;    
+}
+
+.home-text {
+    width: 50%;
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.gap-bottom {
+    margin-bottom: 25px;
+}
+
+
+.main {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+.main-title {
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    background-color: #363636;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+    overflow: hidden;
+    position: sticky;
+    bottom: 0px;
+}
+
+.social-text {
+    vertical-align: middle;
+    color: blue;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.social > span {
+    vertical-align: middle;
+}

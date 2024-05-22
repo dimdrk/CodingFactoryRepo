@@ -1,0 +1,43 @@
+.container {
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;  
+    min-height: 600px;  
+}
+
+.main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red; /* temp */
+}
+
+abbr {
+    color: red;
+}
+
+.box-border {
+    border: 1px solid black;
+    width: 50%;
+    margin-left: auto;
+}
+
+.box-align {
+    text-align: center;
+    padding: 3px 0px;
+    margin-top: 15px;
+    border: 1px solid red; /* temp */
+}
+
+.button {
+    border: 1px solid green;
+    margin-left: 5px; /* temp */
+}
+
+.form2 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(128, 0, 79); /* temp */
+}
