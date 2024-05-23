@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch6;
+package gr.aueb.cf.ch6.ch6A;
 
 /**
  * Finds the second minimum of an array after sorting the list.

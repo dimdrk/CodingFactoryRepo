@@ -1,5 +1,12 @@
-package gr.aueb.cf.ch6;
+package gr.aueb.cf.ch6.ch6A;
 
+/**
+ * 1. Searches the array to find a specific value.
+ * 2. Searches the array and prints the even numbers.
+ * 3. Doubles the value of each item in the array.
+ * 4. Checks if all the values of the array are positive.
+ * 5. Checks if all the values of the array are positive.
+ */
 public class MiniProjectApp {
 
     public static void main(String[] args) {
@@ -64,7 +71,7 @@ public class MiniProjectApp {
     }
 
     /**
-     * Searches an array and prints the even numbers.
+     * Searches the array and prints the even numbers.
      * If none found, prints a message.
      *
      * @param arr       the input array.
@@ -102,8 +109,7 @@ public class MiniProjectApp {
     }
 
     /**
-     * Checks if there is at least one positive
-     * in the input array.
+     * Checks if all the values of the array are positive.
      *
      * @param arr   the input array
      * @return      true, if there is at least one positive,
