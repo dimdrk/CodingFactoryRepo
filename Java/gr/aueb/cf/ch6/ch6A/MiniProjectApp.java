@@ -4,8 +4,10 @@ package gr.aueb.cf.ch6.ch6A;
  * 1. Searches the array to find a specific value.
  * 2. Searches the array and prints the even numbers.
  * 3. Doubles the value of each item in the array.
- * 4. Checks if all the values of the array are positive.
+ * 4. Checks if there is at least one positive value in the array.
  * 5. Checks if all the values of the array are positive.
+ *
+ * @author DimDrk
  */
 public class MiniProjectApp {
 
@@ -109,7 +111,7 @@ public class MiniProjectApp {
     }
 
     /**
-     * Checks if all the values of the array are positive.
+     * Checks if there is at least one positive value in the array.
      *
      * @param arr   the input array
      * @return      true, if there is at least one positive,
